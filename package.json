@@ -1,0 +1,22 @@
+{
+	"name": "tekka",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "svelte-kit dev",
+		"build": "svelte-kit build",
+		"package": "svelte-kit package",
+		"preview": "svelte-kit preview"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/kit": "next",
+		"svelte": "^3.44.0",
+		"postcss": "^8.3.5",
+		"postcss-load-config": "^3.1.0",
+		"svelte-preprocess": "^4.7.3",
+		"autoprefixer": "^10.2.6",
+		"cssnano": "^5.0.6",
+		"tailwindcss": "^2.2.4"
+	},
+	"type": "module"
+}
